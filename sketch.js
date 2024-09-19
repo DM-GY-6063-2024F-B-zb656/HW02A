@@ -40,6 +40,18 @@ function setup() {
   rect(rectX + 230, rectY + 30, 10, 40);
   rect(rectX + 130, rectY + 30, 100, 40);
   rect(rectX + 230, rectY + 80, 10, 130);
+  rect(rectX + 130, rectY + 70, 25, 50);
+  rect(rectX + 155, rectY + 70, 45, 60);
+  rect(rectX + 130, rectY + 120, 25, 10);
+  rect(rectX + 130, rectY + 130, 70, 10);
+  rect(rectX + 130, rectY + 175, 25, 5);
+  rect(rectX + 155, rectY + 175, 10, 5);
+  rect(rectX + 165, rectY + 140, 35, 10);
+  rect(rectX + 165, rectY + 150, 35, 25);
+  rect(rectX + 165, rectY + 175, 35, 5);
+  rect(rectX + 200, rectY + 100, 30, 80);
+
+
 
   //second line
   rect(rectX + 10, rectY + 10, 110, 10);
@@ -157,6 +169,7 @@ function setup() {
 
   fill(247,193,0); //marigold
   rect(rectX + 10, rectY + 70, 20, 20);
+  rect(rectX + 130, rectY + 110 + 30, 35, 35);
 
   fill(70,102,43); //dark olive
   rect(rectX + 120, rectY + 30, 10, 10);

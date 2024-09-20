@@ -50,8 +50,16 @@ function setup() {
   rect(rectX + 165, rectY + 150, 35, 25);
   rect(rectX + 165, rectY + 175, 35, 5);
   rect(rectX + 200, rectY + 100, 30, 80);
-
-
+  rect(rectX + 130, rectY + 180, 25, 30);
+  rect(rectX + 155, rectY + 190, 10, 20);
+  rect(rectX + 165, rectY + 180, 35, 30);
+  rect(rectX + 200, rectY + 180, 10, 10);
+  rect(rectX + 210, rectY + 180, 10, 10);
+  rect(rectX + 220, rectY + 190, 10, 10);
+  rect(rectX + 200, rectY + 200, 10, 10);
+  rect(rectX + 210, rectY + 200, 10, 10);
+  rect(rectX + 130, rectY + 210, 25, 10);
+  rect(rectX + 155, rectY + 210, 10, 10);
 
   //second line
   rect(rectX + 10, rectY + 10, 110, 10);
@@ -136,10 +144,15 @@ function setup() {
   rect(rectX + 85, rectY + 180, 10, 10);
   rect(rectX + 75, rectY + 190, 10, 10);
   rect(rectX + 75, rectY + 210, 10, 10);
+  rect(rectX + 155, rectY + 180, 10, 10);
+  rect(rectX + 220, rectY + 180, 10, 10);
+  rect(rectX + 200, rectY + 190, 10, 10);
+  rect(rectX + 220, rectY + 200, 10, 10);
 
   fill(8,9,201); //dark blue
   rect(rectX + 40, rectY + 20, 10, 10);
   rect(rectX + 120, rectY + 210, 10, 10);
+  rect(rectX + 210, rectY + 190, 10, 10);
 
   fill(219,155,0); //dark orange
   rect(rectX + 100, rectY + 20, 10, 10);
@@ -184,6 +197,12 @@ function setup() {
 
   fill(247,193,0); //marigold
   ellipse(rectX + 85, rectY + 135, 60);
+
+  fill(8,9,201); //dark blue
+  ellipse(rectX + 155, rectY + 75, 30);
+
+  fill(97, 173, 30) //light green
+  ellipse(rectX + 165, rectY + 135, 60);
 
 }
 

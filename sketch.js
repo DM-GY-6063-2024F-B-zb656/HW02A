@@ -3,10 +3,10 @@ function setup() {
   background(40,25,0);
 
   let rectX = windowWidth/2 - 120
-  let rectY = 25
+  let rectY = 0
 
   //main rectangle
-  rect(rectX, rectY, 240, 700);
+  rect(rectX, rectY, 240, 750);
 
   //top line
   rect(rectX, rectY, 120, 10);
@@ -34,6 +34,21 @@ function setup() {
   rect(rectX + 30, rectY + 190, 45, 20);
   rect(rectX, rectY + 210, 10, 10);
   rect(rectX + 10, rectY + 210, 65, 10);
+  rect(rectX, rectY + 220, 10, 65);
+  rect(rectX, rectY + 285, 10, 10);
+  rect(rectX + 75, rectY + 220, 10, 65);
+  rect(rectX + 10, rectY + 220, 65, 70);
+  rect(rectX, rectY + 295, 10, 160);
+  rect(rectX + 75, rectY + 295, 10, 160);
+  rect(rectX, rectY + 455, 10, 130);
+  rect(rectX + 75, rectY + 455, 10, 140);
+  rect(rectX, rectY + 585, 10, 10);
+  rect(rectX, rectY + 595, 10, 100);
+  rect(rectX + 75, rectY + 595, 10, 50);
+  rect(rectX + 75, rectY + 645, 10, 50);
+  rect(rectX, rectY + 705, 10, 10);
+  rect(rectX, rectY + 715, 10, 10);
+  rect(rectX + 10, rectY + 695, 75, 20);
 
   //right side
   rect(rectX + 230, rectY + 10, 10, 20);
@@ -60,6 +75,22 @@ function setup() {
   rect(rectX + 210, rectY + 200, 10, 10);
   rect(rectX + 130, rectY + 210, 25, 10);
   rect(rectX + 155, rectY + 210, 10, 10);
+  rect(rectX + 155, rectY + 220, 10, 65);
+  rect(rectX + 230, rectY + 210, 10, 75);
+  rect(rectX + 230, rectY + 285, 10, 10);
+  rect(rectX + 155, rectY + 285, 10, 170);
+  rect(rectX + 230, rectY + 295, 10, 160);
+  rect(rectX + 155, rectY + 455, 10, 130);
+  rect(rectX + 230, rectY + 455, 10, 140);
+  rect(rectX + 155, rectY + 595, 10, 50);
+  rect(rectX + 155, rectY + 645, 10, 50);
+  rect(rectX + 230, rectY + 595, 10, 100);
+  rect(rectX + 155, rectY + 695, 75, 20);
+  rect(rectX + 230, rectY + 705, 10, 10);
+  rect(rectX + 230, rectY + 715, 10, 10);
+
+  //bottom lines
+  rect(rectX + 20, rectY + 715, 210, 10);
 
   //second line
   rect(rectX + 10, rectY + 10, 110, 10);
@@ -148,6 +179,9 @@ function setup() {
   rect(rectX + 220, rectY + 180, 10, 10);
   rect(rectX + 200, rectY + 190, 10, 10);
   rect(rectX + 220, rectY + 200, 10, 10);
+  rect(rectX, rectY + 695, 10, 10);
+  rect(rectX + 10, rectY + 715, 10, 10);
+  rect(rectX + 230, rectY + 695, 10, 10);
 
   fill(8,9,201); //dark blue
   rect(rectX + 40, rectY + 20, 10, 10);
@@ -179,6 +213,8 @@ function setup() {
   rect(rectX + 100, rectY + 190, 10, 10);
   rect(rectX + 120, rectY + 190, 10, 10);
   rect(rectX + 110, rectY + 200, 10, 10);
+  rect(rectX + 75, rectY + 285, 10, 10);
+  rect(rectX + 155, rectY + 585, 10, 10);
 
   fill(247,193,0); //marigold
   rect(rectX + 10, rectY + 70, 20, 20);
